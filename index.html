@@ -58,7 +58,9 @@
               name="destionation"
               id="destination"
               placeholder="Where are you going?"
+              style="color: #000"
             >
+              <option value="destination"></option>
               <option value="country">Hawai</option>
               <option value="country-two">Dubia</option>
               <option value="country-three">South Africa</option>
@@ -68,13 +70,19 @@
             </select>
           </label>
           <input type="search" class="search-item" id="search-box" />
+          <input
+            type="button"
+            class="input-btn"
+            id="input-btn"
+            value="submit"
+          />
         </form>
       </section>
       <main>
         <section id="offer">
-          <div class="container">
+          <div class="container items wrapper">
             <div class="image-wrapper">
-              <img src="https://placehold.co/400" alt="" />
+              <img src="./assets/pexels-jess-vide-4783884.jpg" alt="" />
             </div>
             <div class="content">
               <span class="span-heading">EXCLUSIVE OFFER</span>
@@ -86,11 +94,37 @@
                 provident numquam ea nesciunt harum!
               </p>
               <span class="day-night-span"> 3 Days/4 Nights </span>
-              <img src="" alt="" />
+              <span class="ratings"
+                ><img
+                  class="rating-star"
+                  src="./assets/star_rate_half_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.svg"
+                  alt=""
+                />
+                <img
+                  class="rating-star"
+                  src="./assets/star_rate_half_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.svg"
+                  alt=""
+                />
+                <img
+                  class="rating-star"
+                  src="./assets/star_rate_half_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.svg"
+                  alt=""
+                />
+                <img
+                  class="rating-star"
+                  src="./assets/star_rate_half_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.svg"
+                  alt=""
+                />
+                <img
+                  class="rating-star"
+                  src="./assets/star_rate_half_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.svg"
+                  alt=""
+                />
+              </span>
               <!--Review icons here-->
               <!-- card content here -->
               <span class="button-price"
-                ><button>Book Now<i></i></button>
+                ><button class="book-now">Book Now<i></i></button>
                 <span class="price">$2564</span>
               </span>
             </div>
@@ -107,17 +141,43 @@
                 <div class="listing">
                   <div class="listing-image">
                     <picture>
-                      <img src="./assets/bg-main-mobile.png" alt="" />
+                      <img
+                        src="./assets/pexels-kampus-5937255 (1).jpg"
+                        alt=""
+                      />
                     </picture>
                     <div class="listing-content">
                       <h3 class="listing-title">
-                        Enjoy the beauty of sea in vietnam
+                        Enjoy the beauty of sea in Hawai
                       </h3>
                       <p class="listing-description">Hawai sun beach</p>
                       <div class="listing-meta-wrapp">
                         <div class="listing-rating">
-                          <span></span><span></span><span></span><span></span
-                          ><span></span>
+                          <img
+                            class="rating-star"
+                            src="./assets/star_rate_half_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.svg"
+                            alt=""
+                          />
+                          <img
+                            class="rating-star"
+                            src="./assets/star_rate_half_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.svg"
+                            alt=""
+                          />
+                          <img
+                            class="rating-star"
+                            src="./assets/star_rate_half_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.svg"
+                            alt=""
+                          />
+                          <img
+                            class="rating-star"
+                            src="./assets/star_rate_half_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.svg"
+                            alt=""
+                          />
+                          <img
+                            class="rating-star"
+                            src="./assets/star_rate_half_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.svg"
+                            alt=""
+                          />
                           <!----review rate here-->
                         </div>
                         <span class="listing-price">$70/Night</span>
@@ -128,17 +188,43 @@
                 <div class="listing">
                   <div class="listing-image">
                     <picture>
-                      <img src="./assets/bg-main-mobile.png" alt="" />
+                      <img
+                        src="./assets/pexels-bertellifotografia-12446359 (1).jpg"
+                        alt=""
+                      />
                     </picture>
                     <div class="listing-content">
                       <h3 class="listing-title">
-                        Enjoy the beauty of sea in vietnam
+                        Enjoy the beauty of sea in Thailand
                       </h3>
-                      <p class="listing-description">Vietnam sun beach</p>
+                      <p class="listing-description">Thailand sun beach</p>
                       <div class="listing-meta-wrapp">
-                        <div class="listing-rating">
-                          <span></span><span></span><span></span><span></span
-                          ><span></span>
+                        <div class="ratings">
+                          <img
+                            class="review-star"
+                            src="./assets/star_rate_half_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.svg"
+                            alt=""
+                          />
+                          <img
+                            class="review-star"
+                            src="./assets/star_rate_half_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.svg"
+                            alt=""
+                          />
+                          <img
+                            class="review-star"
+                            src="./assets/star_rate_half_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.svg"
+                            alt=""
+                          />
+                          <img
+                            class="review-star"
+                            src="./assets/star_rate_half_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.svg"
+                            alt=""
+                          />
+                          <img
+                            class="review-star"
+                            src="./assets/star_rate_half_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.svg"
+                            alt=""
+                          />
                           <!----review rate here-->
                         </div>
                         <span class="listing-price">$50/Night</span>
@@ -149,17 +235,43 @@
                 <div class="listing">
                   <div class="listing-image">
                     <picture>
-                      <img src="./assets/bg-main-mobile.png" alt="" />
+                      <img
+                        src="./assets/pexels-asadphoto-3155651 (1).jpg"
+                        alt=""
+                      />
                     </picture>
                     <div class="listing-content">
                       <h3 class="listing-title">
-                        Enjoy the beauty of sea in vietnam
+                        Enjoy the beauty of sea in Columbia
                       </h3>
                       <p class="listing-description">Columbia sun beach</p>
                       <div class="listing-meta-wrapp">
                         <div class="listing-rating">
-                          <span></span><span></span><span></span><span></span
-                          ><span></span>
+                          <img
+                            class="review-star-img"
+                            src="./assets/star_rate_half_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.svg"
+                            alt=""
+                          />
+                          <img
+                            class="review-star-img"
+                            src="./assets/star_rate_half_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.svg"
+                            alt=""
+                          />
+                          <img
+                            class="review-star-img"
+                            src="./assets/star_rate_half_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.svg"
+                            alt=""
+                          />
+                          <img
+                            class="review-star-img"
+                            src="./assets/star_rate_half_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.svg"
+                            alt=""
+                          />
+                          <img
+                            class="review-star-img"
+                            src="./assets/star_rate_half_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.svg"
+                            alt=""
+                          />
                           <!----review rate here-->
                         </div>
                         <span class="listing-price">$30/Night</span>
@@ -187,7 +299,7 @@
                 </span>
               </div>
               <div class="image-wrapper">
-                <img src="https://placehold.co/400" alt="" />
+                <img src="./assets/pexels-kampus-7569010 (1).jpg" alt="" />
               </div>
             </div>
           </div>
@@ -195,8 +307,9 @@
         <section class="gallery-cards">
           <!--Start gallery here -->
           <div class="container">
+            <div class="card-one"></div>
             <div class="card">
-              <div class="card-content">
+              <div class="card-content-two">
                 <span class="card-subheading">Providential</span>
                 <h5 class="card-heading">Columbia</h5>
                 <p class="card-description">
@@ -206,45 +319,9 @@
                   quia.
                 </p>
               </div>
-              <div class="card-content">
-                <span class="card-subheading">Providential</span>
-                <h5 class="card-heading">South Africa</h5>
-                <p class="card-description">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Maiores, quos recusandae adipisci veniam eaque exercitationem
-                  explicabo corporis dolorem quod eius facere, ea quis rerum, ad
-                  sunt doloremque? Nisi, tempore vero.
-                </p>
-              </div>
-              <div class="card-content">
-                <span class="card-subheading">Providential</span>
-                <h5 class="card-heading">Rwanda</h5>
-                <p class="card-description">
-                  Maiores, quos recusandae adipisci veniam eaque exercitationem
-                  explicabo corporis dolorem quod eius facere, ea quis rerum, ad
-                  sunt doloremque? Nisi, tempore vero.
-                </p>
-              </div>
-              <div class="card-content">
-                <span class="card-subheading">Providential</span>
-                <h5 class="card-heading">Columbia</h5>
-                <p class="card-description">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Maiores, quos recusandae adipisci veniam eaque exercitationem
-                  explicabo corporis dolorem quod eius facere, ea quis rerum, ad
-                  sunt doloremque? Nisi, tempore vero.
-                </p>
-              </div>
-              <div class="card-content">
-                <span class="card-subheading">Providential</span>
-                <h5 class="card-heading">Columbia</h5>
-                <p class="card-description">
-                  Quos recusandae adipisci veniam eaque exercitationem explicabo
-                  corporis dolorem quod eius facere, ea quis rerum, ad sunt
-                  doloremque? Nisi, tempore vero.
-                </p>
-              </div>
             </div>
+            <div class="card-two"></div>
+            <div class="card-three"></div>
           </div>
           <!--End gallery here -->
           <div class="sign-up">
@@ -256,7 +333,7 @@
                   porro vel numquam quidem iusto assumenda laudantium sit
                   ducimus
                 </p>
-                <form action="">
+                <form class="signup-signin" action="">
                   <input
                     type="search-field"
                     class="search-field"
