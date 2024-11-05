@@ -243,17 +243,27 @@ img {
   gap: 1rem;
   color: #fff;
   padding: 1em;
+  text-align: center;
 }
 
 .signup-signin {
   background-color: var(--White);
   border-radius: 10px;
-  padding: 0.5em;
+  padding: 0.3em;
 }
 
 .search-field {
   border: none;
   background-color: var(--White);
+  padding: 0 1em;
+}
+
+.form-button {
+  padding: 0.5em;
+  background-color: var(--span-heading);
+  border: none;
+  color: var(--White);
+  border-radius: 8px;
 }
 
 /* footer stylings */
@@ -262,4 +272,19 @@ img {
   display: block;
   color: var(--White);
   padding: 1em 0;
+}
+
+.content-item {
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
