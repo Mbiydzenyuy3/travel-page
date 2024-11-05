@@ -60,7 +60,7 @@ header {
   color: var(--White);
   font-family: var(--heading-font);
   font-weight: 800;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 h1 {
@@ -81,6 +81,7 @@ img {
 
 .hero-content {
   width: 100%;
+  padding: 0.5em 0;
 }
 
 #offer {
@@ -93,7 +94,8 @@ img {
   justify-content: space-between;
   text-align: left;
   gap: 1.4rem;
-  margin-top: 1rem;
+  padding: 0.5em 0;
+  margin-top: 3.5rem;
 }
 
 .watch-video {
@@ -106,7 +108,19 @@ img {
   padding: 0.5em;
   position: absolute;
   bottom: -16px;
-  box-shadow: 0px 0px 2px 0px;
+  box-shadow: 0 0 2px 0;
+  color: #000;
+}
+
+#destination {
+  border: none;
+  box-shadow: 0 0 2px 0;
+  background-color: var(--bg-color-one);
+}
+
+.search-field {
+  border: none;
+  color: #000;
 }
 
 .image-wrapper {
@@ -124,6 +138,7 @@ img {
   justify-self: center;
   align-items: center;
   flex-wrap: wrap;
+  padding: 1em 0.5em;
   /* border: 1px solid green; */
 }
 .listing {
@@ -137,6 +152,7 @@ img {
 
   & .listing-content {
     padding: 0.5rem;
+    text-align: left;
   }
   & .listing-title {
     font-size: 1.5rem;
@@ -216,12 +232,23 @@ img {
   color: var(--White);
 }
 
+.card-content-two {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  height: 100%;
+  font-weight: 600;
+}
+
 /* sign up styling */
 .sign-up {
   width: 100%;
   background-color: var(--White);
   display: block;
   padding: 1.4em 0;
+  text-align: left;
 }
 
 .container-wrapper {
@@ -237,13 +264,14 @@ img {
   background-color: var(--span-heading);
   border: none;
   display: flex;
+  text-align: left;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 1rem;
   color: #fff;
   padding: 1em;
-  text-align: center;
+  text-align: left;
 }
 
 .signup-signin {
@@ -280,11 +308,22 @@ img {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  text-align: left;
 }
 
-.footer-items {
+.footer-items,
+.content-item {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 1rem;
+}
+
+.footer-span {
+  font-weight: 700;
+  color: #00f;
+}
+
+.copywrite {
+  text-align: center;
 }
