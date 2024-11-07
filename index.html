@@ -57,7 +57,7 @@
         </div>
         <form class="form-one" action="">
           <label for="">
-            <select name="destionation" id="destination" required>
+            <select name="destionation" id="destination-travel" required>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="200"
@@ -98,7 +98,7 @@
         <section id="offer">
           <div class="container items wrapper">
             <div class="image-wrapper">
-              <img src="./assets/island.png" alt="" />
+              <img src="./assets/island.png" alt=" rocky island" />
             </div>
             <div class="content">
               <span class="span-heading">EXCLUSIVE OFFER</span>
@@ -110,15 +110,23 @@
                 provident numquam ea nesciunt harum!
               </p>
               <span class="day-night-span"> 3 Days/4 Nights </span>
-              <span class="ratings"
+              <span class="ratings star-span"
                 ><img
                   class="rating-star"
                   src="./assets/star-solid.svg"
                   alt=""
                 />
+                <img
+                  class="rating-star"
+                  src="./assets/star-solid.svg"
+                  alt="rate star"
+                />
                 <img class="rating-star" src="./assets/star-solid.svg" alt="" />
-                <img class="rating-star" src="./assets/star-solid.svg" alt="" />
-                <img class="rating-star" src="./assets/star-solid.svg" alt="" />
+                <img
+                  class="rating-star"
+                  src="./assets/star-solid.svg"
+                  alt="reviewing site star"
+                />
                 <svg
                   class="rating-star review-star-img"
                   xmlns="http://www.w3.org/2000/svg"
@@ -156,20 +164,20 @@
             </h2>
             <div class="cards">
               <div class="container">
-                <div class="listing">
+                <div class="listing review-allocation">
                   <div class="listing-image">
                     <picture>
                       <img src="./assets/mountains.png" alt="" />
                     </picture>
-                    <div class="listing-content">
-                      <h3 class="listing-title">
+                    <div class="listing-content cards-wrap">
+                      <h3 class="listing-title rating-title">
                         Enjoy the beauty of sea in Hawai
                       </h3>
                       <p class="listing-description">Hawai sun beach</p>
-                      <div class="listing-meta-wrapp">
-                        <div class="listing-rating">
+                      <div class="listing-meta-wrapp review-wrapper">
+                        <div class="listing-rating rating-here">
                           <img
-                            class="rating-star"
+                            class="rating-star review-us-star"
                             src="./assets/star-solid.svg"
                             alt=""
                           />
@@ -179,12 +187,12 @@
                             alt=""
                           />
                           <img
-                            class="rating-star"
+                            class="rating-star rate-us-star"
                             src="./assets/star-solid.svg"
                             alt=""
                           />
                           <img
-                            class="rating-star"
+                            class="rating-star reviewing"
                             src="./assets/star-solid.svg"
                             alt=""
                           />
@@ -202,12 +210,12 @@
                           </svg>
                           <!----review rate here-->
                         </div>
-                        <span class="listing-price">$250</span>
+                        <span class="listing-price tag">$250</span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="listing">
+                <div class="listing review-stats">
                   <div class="listing-image">
                     <picture>
                       <img src="./assets/insland boat.png" alt="" />
@@ -220,7 +228,12 @@
                       <div class="listing-meta-wrapp">
                         <div class="ratings">
                           <img
-                            class="review-star"
+                            class="review-star stats"
+                            src="./assets/star-solid.svg"
+                            alt=""
+                          />
+                          <img
+                            class="review-star star-ratings"
                             src="./assets/star-solid.svg"
                             alt=""
                           />
@@ -230,12 +243,7 @@
                             alt=""
                           />
                           <img
-                            class="review-star"
-                            src="./assets/star-solid.svg"
-                            alt=""
-                          />
-                          <img
-                            class="review-star"
+                            class="review-star reviewing"
                             src="./assets/star-solid.svg"
                             alt=""
                           />
@@ -253,7 +261,7 @@
                           </svg>
                           <!----review rate here-->
                         </div>
-                        <span class="listing-price">$250</span>
+                        <span class="listing-price price-detail">$250</span>
                       </div>
                     </div>
                   </div>
@@ -291,7 +299,7 @@
                             alt=""
                           />
                           <svg
-                            class="review-star-img"
+                            class="review-star-img site-review"
                             xmlns="http://www.w3.org/2000/svg"
                             width="200"
                             height="200"
@@ -304,7 +312,7 @@
                           </svg>
                           <!----review rate here-->
                         </div>
-                        <span class="listing-price">$250</span>
+                        <span class="listing-price price-tag">$250</span>
                       </div>
                     </div>
                   </div>
@@ -366,14 +374,14 @@
                   <span class="card-subheading">Providencia</span>
                   <h5 class="card-heading">Columbia</h5>
                 </div>
-                <div class="listing-rating">
+                <div class="listing-rating review">
                   <img
                     class="review-star-img"
                     src="./assets/star-solid.svg"
                     alt=""
                   />
                   <img
-                    class="review-star-img"
+                    class="review-star-img str-icon"
                     src="./assets/star-solid.svg"
                     alt=""
                   />
@@ -389,7 +397,7 @@
                   />
 
                   <svg
-                    class="review-star-img"
+                    class="review-star-img svg-icon"
                     xmlns="http://www.w3.org/2000/svg"
                     width="200"
                     height="200"
@@ -439,17 +447,81 @@
         <div class="container">
           <div class="content-item">
             <div class="logo-wrap">
-              <span class="logo">HAWAI</span>
+              <span class="logo" id="logo-black">TRAVEL BLOG</span>
               <p class="footer-paragraph">
                 laudantium optio possimus ratione tempora, laboriosam totam
               </p>
             </div>
             <span class="social-media-icons">
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
+              <div class="svg">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="200"
+                  height="200"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="#blue"
+                    d="M9.602 21.026v-7.274H6.818a.545.545 0 0 1-.545-.545V10.33a.545.545 0 0 1 .545-.545h2.773V7a4.547 4.547 0 0 1 4.86-4.989h2.32a.556.556 0 0 1 .557.546v2.436a.557.557 0 0 1-.557.545h-1.45c-1.566 0-1.867.742-1.867 1.833v2.413h3.723a.533.533 0 0 1 .546.603l-.337 2.888a.545.545 0 0 1-.545.476h-3.364v7.274a.962.962 0 0 1-.975.974h-1.937a.961.961 0 0 1-.963-.974"
+                  />
+                </svg>
+              </div>
+              <div class="twitter">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="200"
+                  height="200"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="#333"
+                    fill-rule="evenodd"
+                    d="M22 5.9c-.7.3-1.5.5-2.4.6a4 4 0 0 0 1.8-2.2c-.8.5-1.6.8-2.6 1a4.1 4.1 0 0 0-6.7 1.2a4 4 0 0 0-.2 2.5a11.7 11.7 0 0 1-8.5-4.3a4 4 0 0 0 1.3 5.4c-.7 0-1.3-.2-1.9-.5a4 4 0 0 0 3.3 4a4.2 4.2 0 0 1-1.9.1a4.1 4.1 0 0 0 3.9 2.8c-1.8 1.3-4 2-6.1 1.7a11.7 11.7 0 0 0 10.7 1A11.5 11.5 0 0 0 20 8.5V8a10 10 0 0 0 2-2.1"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="instagram">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="200"
+                  height="200"
+                  viewBox="0 0 14 14"
+                >
+                  <path
+                    fill="#333"
+                    fill-rule="evenodd"
+                    d="M3.39.787A2.604 2.604 0 0 0 .786 3.39v6.944a2.604 2.604 0 0 0 2.604 2.604h6.944a2.604 2.604 0 0 0 2.603-2.604V3.39A2.604 2.604 0 0 0 10.334.787zm7.693 2.607a.75.75 0 1 1-1.5 0a.75.75 0 0 1 1.5 0m-4.22 1.388a2.08 2.08 0 1 0 0 4.16a2.08 2.08 0 0 0 0-4.16m-3.081 2.08a3.08 3.08 0 1 1 6.16 0a3.08 3.08 0 0 1-6.16 0"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="pinterest">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="200"
+                  height="200"
+                  viewBox="0 0 32 32"
+                >
+                  <path
+                    fill="#333"
+                    d="M16.094 4C11.017 4 6 7.383 6 12.861c0 3.483 1.958 5.463 3.146 5.463c.49 0 .774-1.366.774-1.752c0-.46-1.174-1.44-1.174-3.355c0-3.978 3.028-6.797 6.947-6.797c3.37 0 5.864 1.914 5.864 5.432c0 2.627-1.055 7.554-4.47 7.554c-1.231 0-2.284-.89-2.284-2.166c0-1.87 1.197-3.681 1.197-5.611c0-3.276-4.537-2.682-4.537 1.277c0 .831.104 1.751.475 2.508C11.255 18.354 10 23.037 10 26.066c0 .935.134 1.855.223 2.791c.168.188.084.169.341.075c2.494-3.414 2.263-4.388 3.391-8.856c.61 1.158 2.183 1.781 3.43 1.781c5.255 0 7.615-5.12 7.615-9.738C25 7.206 20.755 4 16.094 4z"
+                  />
+                </svg>
+              </div>
+              <div class="linkedin">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="200"
+                  height="200"
+                  viewBox="0 0 432 432"
+                >
+                  <path
+                    fill="#333"
+                    d="M319 221.5q-8-10.5-30-10.5q-27 0-38 16t-11 45v146q0 5-3 8t-8 3h-76q-4 0-7.5-3t-3.5-8V148q0-4 3.5-7.5t7.5-3.5h74q4 0 6.5 2t3.5 6v5q1 2 1 7q28-27 76-27q53 0 83 27t30 79v182q0 5-3.5 8t-7.5 3h-78q-4 0-7.5-3t-3.5-8V254q0-22-8-32.5zM88 91.5Q73 107 51.5 107T15 91.5t-15-37T15 18T51.5 3T88 18t15 36.5t-15 37zm13 56.5v270q0 5-3.5 8t-7.5 3H14q-5 0-8-3t-3-8V148q0-4 3-7.5t8-3.5h76q4 0 7.5 3.5t3.5 7.5z"
+                  />
+                </svg>
+              </div>
             </span>
           </div>
           <div class="content-item">
