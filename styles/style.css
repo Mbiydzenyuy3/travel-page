@@ -10,10 +10,10 @@
   --input-errors: #ff5252;
 
   /* Neutral */
-  --White: #fff;
-  --Light-grayish-violet: #dedddf;
-  --Dark-grayish-violet: #8e8593;
-  --Very-dark-violet: #21092f;
+  --white: #fff;
+  --light-grayish-violet: #dedddf;
+  --dark-grayish-violet: #8e8593;
+  --very-dark-violet: #21092f;
   --span-heading: #3939df;
   --heading-font: "PT Serif", serif;
   --body-font: system-ui, sans-serif;
@@ -78,8 +78,8 @@ h6 {
 
 h1 {
   font-size: 2rem;
-  line-height: 28px;
-  color: var(--White);
+  line-height: 32px;
+  color: var(--white);
 }
 
 p {
@@ -129,7 +129,7 @@ img {
 }
 
 .watch-video {
-  color: #fff;
+  color: var(--white);
   font-family: var(--heading-font);
   font-size: 12px;
   font-weight: 700;
@@ -197,7 +197,7 @@ svg,
   justify-content: center;
   padding: 0.5em;
   background-color: var(--span-heading);
-  color: #fff;
+  color: var(--white);
   border: none;
   font-size: 1rem;
   font-weight: 600;
@@ -323,7 +323,7 @@ svg,
 
 .card-desciption {
   font-family: var(--body-font);
-  color: #fff;
+  color: var(--white);
 }
 
 .ratings,
@@ -465,7 +465,7 @@ svg,
 
 /* footer stylings */
 #footer {
-  background-color: var(--bg-color-two);
+  background-color: var(--light-grayish-violet);
   display: block;
   color: #000;
   padding: 1em 0;
