@@ -22,12 +22,12 @@
               <span class="logo">TRAVEL BLOG</span>
             </div>
             <nav class="nav-bar">
-              <ul>
-                <a href="">Trip</a
-                ><a href="">About us </a
-                ><a href="">Hotelsed\z</a
-                ><a href="">Blog</a
-                ><a href="">News</a>
+              <ul class="ul-links">
+                <a href="#hero-section">Trip</a
+                ><a href="#offer">About us </a
+                ><a href="#our-services">Hotels</a
+                ><a href="#footer">Blog</a
+                ><a href="#footer">News</a>
               </ul>
               <div class="button">
                 <button class="btn">Sign In</button>
@@ -57,7 +57,27 @@
           </div>
         </div>
         <form class="form-one" action="">
-          <label for="">
+          <label for="" class="label-destination">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="200"
+              height="200"
+              viewBox="0 0 21 21"
+            >
+              <g
+                fill="none"
+                fill-rule="evenodd"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                transform="translate(4 2)"
+              >
+                <path
+                  d="m6.5 16.54l.631-.711c.716-.82 1.36-1.598 1.933-2.338l.473-.624c1.975-2.661 2.963-4.773 2.963-6.334C12.5 3.201 9.814.5 6.5.5s-6 2.701-6 6.033c0 1.561.988 3.673 2.963 6.334l.473.624a54.84 54.84 0 0 0 2.564 3.05z"
+                />
+                <circle cx="6.5" cy="6.5" r="2.5" />
+              </g>
+            </svg>
             <select name="destionation-one" id="destination-travel" required>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -81,18 +101,61 @@
               <option value="country-six">Thailand</option>
             </select>
           </label>
-          <input
-            type="search"
-            class="search"
-            id="search-box"
-            placeholder="Enter your destination here..."
-          />
-          <input
-            type="calender"
-            class="calender"
-            id="input-btn"
-            placeholder="search"
-          />
+          <label for="" class="search">
+            <input
+              type="search"
+              class="search"
+              id="search-box"
+              placeholder="Enter your destination here..."
+            />
+          </label>
+          <label for="" class="people-visiting">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="200"
+              height="200"
+              viewBox="0 0 24 24"
+            >
+              <g fill="none" stroke="currentColor">
+                <path
+                  stroke-linejoin="round"
+                  d="M4 18a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"
+                />
+                <circle cx="12" cy="7" r="3" />
+              </g>
+            </svg>
+            <input
+              type="text"
+              class="visited"
+              id="input-people-visiting"
+              placeholder="2 adults 2 children 1 room"
+            />
+          </label>
+          <label for="" class="datetime">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="200"
+              height="200"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M17 4.625H7a4 4 0 0 0-4 4v8.75a4 4 0 0 0 4 4h10a4 4 0 0 0 4-4v-8.75a4 4 0 0 0-4-4m-14
+                 6h18m-4-8v4m-10-4v4m.375 7.515h1.028m7.194 0h1.028m-5.139 0h1.028m-5.139 3.084h1.028m7.194 
+                 0h1.028m-5.139 0h1.028"
+              />
+            </svg>
+            <input
+              placeholder="Checkin/checkout"
+              type="datetime"
+              class="checkin"
+              id="date-box"
+            />
+          </label>
           <button type="button" class="menu-search">
             <img
               class="search-icon"
@@ -382,7 +445,7 @@
             </div>
           </div>
         </section>
-        <section class="gallery-cards">
+        <section id="gallery" class="gallery-cards">
           <!--Start gallery here -->
           <div class="container">
             <div class="card-one"></div>
@@ -443,8 +506,11 @@
           <div class="sign-up">
             <div class="container-wrapper">
               <div class="content-two">
-                <h3>Sign Up to our Newsletter</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h3 class="letter">Sign Up to our Newsletter</h3>
+                <p class="footer-paragraph-two">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                  explicabo optio ratione suscipit corrupti quidem, sint
+                </p>
                 <form class="signup-signin" action="">
                   <input
                     type="text"
@@ -462,7 +528,7 @@
         </section>
       </main>
       <footer id="footer">
-        <div class="container">
+        <div class="container footer-wrapper">
           <div class="content-item">
             <div class="logo-wrap">
               <span class="logo" id="logo-black">TRAVEL BLOG</span>
