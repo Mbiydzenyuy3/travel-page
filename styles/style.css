@@ -500,7 +500,6 @@ svg,
 }
 
 .form-button {
-  padding: 0.5em;
   background-color: var(--span-heading);
   border: none;
   color: var(--body-text-white);
